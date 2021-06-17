@@ -15,6 +15,6 @@ I will continue to update this repository as I clean up and standardize my tools
 
 ### Notice
 
-This is a tool- and science-driven extension of a summer '20 mentoring project via Duke University's "Keep Exploring" with Alexandra Rivera and Lara Breitkreutz. To see some great Python notebooks, please [go here](explore-itp.github.io) to see their work.
+This is a tool- and science-driven extension of a summer '20 mentoring project via Duke University's "Keep Exploring" with Alexandra Rivera and Lara Breitkreutz. To see some great Google CoLab Python notebooks, please [go here](https://github.com/explore-ITP/explore-itp.github.io/tree/master/tutorials) to see their work.
 
 All software provided as is, but feel free to submit issues + pull requests.
