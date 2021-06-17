@@ -22,7 +22,7 @@ FTP_HOST = 'ftp.whoi.edu'
 FTP_USER = 'anonymous'
 FTP_PASS = ''
 # Local save folder
-SAVE_FOLDER = '../itp-data'
+SAVE_FOLDER = '../data-local'
 # Temporary suffix for downloaded files before hashing has completed
 PREHASH_FILENAME_SUFFIX = '_tmp'
 
