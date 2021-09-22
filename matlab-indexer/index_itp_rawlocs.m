@@ -5,7 +5,7 @@
 %% set path to ITP directory
 clear; clc;
 
-itpRawLocs = dir('../itp-data/*rawlocs.dat');
+itpRawLocs = dir('../data-local/*rawlocs.dat');
 N = numel(itpRawLocs);
 
 %% loop through itpFolders

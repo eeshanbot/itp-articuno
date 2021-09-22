@@ -3,7 +3,7 @@
 % access later on
 
 %% set path to ITP directory
-itpFolders = dir('../itp-data');
+itpFolders = dir('../data-local');
 dirFlag = [itpFolders.isdir];
 dirFlag(1:2) = 0; % removes . and .. as entries
 
