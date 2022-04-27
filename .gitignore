@@ -137,5 +137,5 @@ dmypy.json
 *.m~
 
 #### ITP STUFF ####
-.dat
-.zip
+*.dat
+*.zip
