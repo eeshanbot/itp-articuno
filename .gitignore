@@ -135,3 +135,7 @@ dmypy.json
 
 # OSX / *nix default autosave extension
 *.m~
+
+#### ITP STUFF ####
+.dat
+.zip
