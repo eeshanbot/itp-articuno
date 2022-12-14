@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# script to download all assimilated data from Bob Weller's UOP database
+# script to download all data from WHOI ITP server
 # harness the power of wget
 
 # eeshan bhatt
