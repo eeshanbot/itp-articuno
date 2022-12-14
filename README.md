@@ -16,7 +16,7 @@ I will continue to update this repository as I scale up and standardize my tools
 
 ### DEMO
 
-1. Please see `matlab-reader/demo-ts-diagram` for an example of how to use the indexed dataset and helper functions
+Please see `matlab-reader/demo-ts-diagram` for an example of how to use the indexed dataset and helper functions
 
 ### Notice
 
