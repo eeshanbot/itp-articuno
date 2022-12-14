@@ -3,15 +3,20 @@ Tools to streamline working with the WHOI Ice Tethered Profiler dataset
 
 ### Dependencies
 
-- Python3 for downloading ITP files from the WHOI FTP server
-- MATLAB for data exploration and analysis. I am working on translating the MATLAB infrastructure to Python (if you would like to contribute, hit me up).
+- Bash (really just wget)
+- MATLAB for data indexing
 
 ### How to Use
 
-1. Run Python/Bash scripts in `itp-file-downloader`. This will create a local copy of all the ITP data. The WHOI server stores this as `.zip` files, so if you want to update your local copy with only the new data, you cannot delete your local `.zip` files.
-2. Run MATLAB scripts in `matlab-indexer`. This will create two `.mat` files that serve as searchable indexed libraries. You can easily load these `.mat` files into any script where you would like to use the ITP data, filter for the profiles of interest, and then only load those into memory.
+1. Run Bash scripts in `itp-file-downloader`. This will create a local copy of all the ITP data in `itp-data` while only downloading files that have changed since the last download. It is recommended that you do not delete your zip files if you want to consistently update your local ITP database.
+2. Run `itp_unzip.sh` in `itp-file-downloader`. This automatically unzips new downloads and takes care of the `39_1` file name.
+3. Run MATLAB scripts in `matlab-indexer`: `index_itp_data` and `index_itp_rawlocs`. These will create two `.mat` files that serve as searchable indexed libraries. You can easily load these `.mat` files into any script where you would like to use the ITP data, filter for the profiles of interest, and then only load those into memory.
 
-I will continue to update this repository as I clean up and standardize my tools for working with ITP data.
+I will continue to update this repository as I scale up and standardize my tools for working with ITP data.
+
+### DEMO
+
+1. Please see `matlab-reader/demo-ts-diagram` for an example of how to use the indexed dataset and helper functions. Note: the demo makes use of the [gsw toolbox](https://github.com/TEOS-10/GSW-Matlab).
 
 ### Notice
 
