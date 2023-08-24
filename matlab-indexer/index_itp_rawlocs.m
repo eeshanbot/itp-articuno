@@ -1,6 +1,5 @@
 %% index_itp_rawlocs
-% creates a mat file of relevant ITP properties for easier, searchable
-% access later on
+% creates a look up table for ITP raw locations that can be easily accessed
 
 %% set path to ITP directory
 clear; clc;

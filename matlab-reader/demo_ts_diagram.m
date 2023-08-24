@@ -3,10 +3,13 @@
 % @eeshanbot
 
 %% prep workspace
-clearvars -except ITP;
-close all;
+clear; clc; close all;
 
 %% load ITP object
+% note: since ITP can take a while to load, it is useful to check if it is
+% already loaded at the beginning of a script that you may run often:
+% 
+% change "clear" to "clearvars -except ITP"
 if ~exist('ITP','var')
     A = load('~/Code/itp-articuno/matlab-indexer/itp-indexed.mat');
     global ITP;
